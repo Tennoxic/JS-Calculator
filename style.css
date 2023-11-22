@@ -1,0 +1,40 @@
+#textArea{
+    background-color: lightgray;
+    min-width:97%;
+    min-height: 50px;
+    font-size: 25px;
+}
+body{
+    background-color: #363636;
+}
+table{
+    margin: auto;
+    width: 500;height: 500;
+    border: 2px solid black;
+}
+th{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma;
+    padding: 0px;
+    background-color: darkgray;
+    border: 3px solid black;
+}
+button{
+    margin:auto;
+    min-width: 100px;
+    min-height: 40px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    background-color: lightgray;
+    border:3px solid black;
+    border-radius: 15px;
+}
+td,tr{
+    font-family: Tahoma;
+    font-weight: bold;
+    border: 1px solid black;
+}
