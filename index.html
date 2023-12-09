@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS Calculator</title>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="İbrahim Efe Öksüz"/>
+    <meta name="keywords" content="JS, Calculator"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"></link>
+
+  </head>
+  <body>
+    <h1 class="text-center" style="color:white; margin: 25px 0px 15px 0px;">İbrahim Efe Öksüz</h1>
+    <div class="container">
+        <table class="table-borderless">
+            <th colspan="4" class="text-center">Calculator</th>
+            <tr>
+                <td colspan="3"><input type="text" id="textArea" class="text-center form-control"></td>
+                <td><button class="btn btn-primary" onclick="temizle()">C</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-dark" onclick="yaz1()">1</button></td>
+                <td><button class="btn btn-dark" onclick="yaz2()">2</button></td>
+                <td><button class="btn btn-dark" onclick="yaz3()">3</button></td>
+                <td><button class="btn btn-primary" onclick="bolme()">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-dark" onclick="yaz4()">4</button></td> 
+                <td><button class="btn btn-dark" onclick="yaz5()">5</button></td>
+                <td><button class="btn btn-dark" onclick="yaz6()">6</button></td>
+                <td><button class="btn btn-primary" onclick="fark()">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-dark" onclick="yaz7()">7</button></td>
+                <td><button class="btn btn-dark" onclick="yaz8()">8</button></td>
+                <td><button class="btn btn-dark" onclick="yaz9()">9</button></td>
+                <td><button class="btn btn-primary" onclick="toplama()">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-primary" onclick="nokta()">.</button></td>
+                <td><button class="btn btn-dark" onclick="yaz0()">0</button></td>
+                <td><button class="btn btn-primary" onclick="hesapla()">=</button></td>
+                <td><button class="btn btn-primary" onclick="carpma()">*</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

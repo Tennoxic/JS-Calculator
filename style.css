@@ -1,0 +1,47 @@
+#textArea{
+    background-color: lightgray;
+    min-width:97%;
+    min-height: 50px;
+    font-size: 25px;
+}
+body{
+    background-color: #303030;
+}
+table{
+    margin: auto;
+    width: 500;height: 500;
+    border: 2px solid black;
+    padding: 10px;
+}
+th{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma;
+    padding: 0px;
+    color: white;
+    border: 3px solid black;
+}
+button{
+    margin:auto;
+    min-width: 100px;
+    min-height: 40px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    background-color: lightgray;
+    border:3px solid black;
+    border-radius: 15px;
+}
+td,tr{
+    font-family: Tahoma;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.form-control{
+    color: black;
+}
+.lead{
+    color:white;
+}
